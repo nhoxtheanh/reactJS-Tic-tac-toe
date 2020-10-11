@@ -52,3 +52,8 @@ ol, ul {
 .selected-item {
   font-weight: bold;
 }
+
+.square.highlight {
+  background: black;
+  color: white;
+}
