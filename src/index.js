@@ -9,7 +9,9 @@ import Game from './components/Game';
   // ========================================
   
   ReactDOM.render(
-    <Game />,
+    <React.StrictMode>
+      <Game />
+    </React.StrictMode>,
     document.getElementById('root')
   );
   
